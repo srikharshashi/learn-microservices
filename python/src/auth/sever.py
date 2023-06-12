@@ -60,7 +60,7 @@ def validate():
         return "missing crenetials",401
     
 
-    # Authorization : <tyep> <tokem>
+    # Authorization : <type> <tokem>
     # ex :- authorization: bearer jsi8uwu37e839932gdyhdu
     encoded_jwt=encoded_jwt.split(" ")[1]
 
